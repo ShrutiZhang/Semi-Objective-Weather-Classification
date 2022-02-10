@@ -1,4 +1,4 @@
-# Semi-Objective-Weather-Classification-
+# Semi-Objective-Weather-Classification
 This is a semi-objective weather classifiction R code
 getwd()
 library(dplyr)
@@ -10,8 +10,7 @@ setwd("C:\\Users\\Lenovo\\Desktop\\synopticclass")
 siteall <- read.csv("location.csv")
 lao <- siteall
 
-# 进度条
-pb$tick()
+pb$tick()#进度条
 Sys.sleep(1/length(myfile))
 nc_close(nc.file)
 }
